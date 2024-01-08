@@ -19,7 +19,8 @@
 
 ### 先决条件
 
-确保你已经安装了Python和pip。此外，你可能还需要一个适合Python开发的IDE或代码编辑器。
+- Python 3.6+ 
+- Node.js & npm
 
 ### 安装
 
@@ -52,11 +53,6 @@ npm install
 ```
 
 4. 运行
-在bakcend目录下，运行以下命令启动后端服务器：
-
-```
-python main.py
-```
 
 在frontend目录下，运行以下命令启动前端：
 
