@@ -39,6 +39,7 @@ cd chatroom-python-javascript
 3. 安装依赖：
 
 后端
+先准备好一个新的python虚拟环境, venv或者conda环境
 
 ```bash
 cd backend
@@ -54,8 +55,15 @@ npm install
 
 4. 运行
 
-在frontend目录下，运行以下命令启动前端：
+新建一个terminal,在backend目录下,在配置好的python环境下启动服务器:
+
+```
+uvicorn main:app --reload --port 3001
+```
+
+新建另一个terminal,在frontend目录下,运行以下命令启动前端：
 
 ```
 npm run dev
 ```
+
